@@ -22,7 +22,9 @@
   background: #fd6e0a;
   border-radius: 5px;
 }
-
+section {
+  margin-top: 130px;
+}
 /*        header and nav style   */
 
 nav {
@@ -74,14 +76,13 @@ main {
   margin: 0 auto;
 }
 .about {
-  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
 }
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 35px;
   text-align: center;
@@ -107,9 +108,6 @@ main {
 }
 /*       section what i do    */
 
-.what-i-do {
-  margin-top: 130px;
-}
 .what-i-do .section-description {
   padding: 10px 150px;
   text-align: center;
@@ -132,5 +130,33 @@ main {
 }
 .skill-description {
   color: #757575;
-  padding:0 3px;
+  padding: 0 3px;
+}
+
+/*    resume style part     */
+.resume-contend {
+  display: flex;
+  gap:24px;
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .descripton {
+  color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
